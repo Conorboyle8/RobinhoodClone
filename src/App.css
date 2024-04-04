@@ -42,7 +42,7 @@
 }
 
 .topnav a {
-  float: left;
+  float: right;
   display: block;
   color: black;
   text-align: center;
@@ -52,10 +52,27 @@
 }
 
 .topnav input[type=text]{
-  float: right;
+  float: center;
   padding: 6px;
   border: none;
   margin-top: 8px;
   margin-right: 16px;
   font-size: 17px;
+}
+
+.topnav input[type=text] {
+  border: 1px solid #ccc;
+}
+
+.topnav img {
+  float: left;
+}
+
+table {
+  float: right;
+  
+  border: 1px solid #282c34
+}
+th {
+  border-bottom: 1px solid #282c34
 }
